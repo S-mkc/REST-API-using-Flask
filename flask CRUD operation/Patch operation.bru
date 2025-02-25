@@ -1,0 +1,18 @@
+meta {
+  name: Patch operation
+  type: http
+  seq: 5
+}
+
+patch {
+  url: http://127.0.0.1:5000/user/modifyuser_patch
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  id: 6
+  name: Christ Mbape
+  email: christ@gmail.com
+  role: CTO
+}

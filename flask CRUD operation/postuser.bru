@@ -1,0 +1,19 @@
+meta {
+  name: postuser
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://127.0.0.1:5000/user/adduser
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  name: mukesh Chaudhary
+  email: mukesh@gmail.com
+  phone: 3423223
+  role: admin
+  password: 232142
+}
